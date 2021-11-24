@@ -513,7 +513,9 @@
     margin: 0 10px 0 ;
 }
 
-
+.place__image {
+    overflow: hidden;
+}
 
 .place__img {
     display: block;
@@ -524,7 +526,7 @@
 }
 
 .place__img:hover {
-
+    transform: scale(1.05)
 }
 
 .place-label {
